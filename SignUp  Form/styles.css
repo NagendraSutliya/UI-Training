@@ -78,10 +78,9 @@ html {
   .rside {
     width: 65%;
     float: right;
-    overflow-y: scroll;
   }
 
-  .top {
+ .top {
     background-color: #f9fafb;
   }
 
@@ -104,7 +103,7 @@ html {
 
   .rside .form {
     font-family: "Poppins", sans-serif;
-    width: 100%;
+    /* width: 100%; */
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-right: 4rem;
@@ -153,8 +152,8 @@ html {
 
   .rside .bottom {
     background-color: #f9fafb;
-    width: 100vw;
-    padding-bottom: 10rem;
+    /* width: 100vw; */
+    padding-bottom: 5rem;
   }
 
   .rside .bottom button {
@@ -183,4 +182,4 @@ html {
     color: #596d48;
     text-decoration: none;
   }
-  
+   

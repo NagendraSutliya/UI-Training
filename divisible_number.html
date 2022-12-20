@@ -7,19 +7,21 @@
     <title>Document</title>
 </head>
 <body>
+
+    <div style="text-align: right;"><a href="index.html">Home</a></div>
     
     <script>
         let number = parseInt(prompt("please enter the number you would like to print upto"));
  
         for (let i = 1; i <= number; i++) {
          if (i % 4 == 0 && i % 7 == 0) {
-            console.log("fourDiv & sevDiv");
+            document.write("fourDiv & sevDiv" + "<br/>");
          } else if (i % 4 == 0) {
-             console.log("fourDiv");
+             document.write("fourDiv" + "<br/>");
         } else if (i % 7 ==0) {
-             console.log("sevDiv");
+             document.write("sevDiv" + "<br/>");
         } else {
-         console.log(i);
+         document.write(i + "<br/>");
         }
      }
      </script>
